@@ -1,0 +1,73 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm": {
+    "isCaseSensitive": null,
+    "store": "/media/aaron/Data/.pnpm-store/2"
+  },
+  "2 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "validator",
+      "version": "1.0.0",
+      "description": "object validator",
+      "main": "./dist/index.js",
+      "scripts": {
+        "test": "jest --config=jest.config.js",
+        "build": "tsc"
+      },
+      "keywords": [
+        "validator",
+        "ramda",
+        "ramda-adjunct"
+      ],
+      "author": "vorticalbox",
+      "license": "ISC",
+      "dependencies": {
+        "@types/node": "^13.7.0",
+        "node-worker-threads-pool": "^1.1.2",
+        "ramda": "^0.27.0",
+        "ramda-adjunct": "^2.24.0"
+      },
+      "devDependencies": {
+        "@types/jest": "^25.1.1",
+        "@types/ramda": "^0.26.40",
+        "@typescript-eslint/eslint-plugin": "^2.19.0",
+        "@typescript-eslint/parser": "^2.19.0",
+        "eslint": "^6.8.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "jest": "^25.1.0",
+        "ts-jest": "^25.2.0",
+        "typescript": "^3.7.5"
+      }
+    },
+    "prefix": "/media/aaron/Data/work/packages/validatior"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/media/aaron/Data/work/packages/validatior",
+    "stage": "resolution_started"
+  },
+  "4 warn pnpm": {
+    "message": "Moving @types/jest that was installed by a different package manager to \"node_modules/.ignored",
+    "prefix": "/media/aaron/Data/work/packages/validatior"
+  },
+  "5 error pnpm": {
+    "message": {
+      "errno": -39,
+      "code": "ENOTEMPTY",
+      "syscall": "rename",
+      "path": "/media/aaron/Data/work/packages/validatior/node_modules/@types/jest",
+      "dest": "/media/aaron/Data/work/packages/validatior/node_modules/.ignored/@types/jest"
+    },
+    "err": {
+      "name": "Error",
+      "message": "ENOTEMPTY: directory not empty, rename '/media/aaron/Data/work/packages/validatior/node_modules/@types/jest' -> '/media/aaron/Data/work/packages/validatior/node_modules/.ignored/@types/jest'",
+      "code": "ENOTEMPTY",
+      "stack": "Error: ENOTEMPTY: directory not empty, rename '/media/aaron/Data/work/packages/validatior/node_modules/@types/jest' -> '/media/aaron/Data/work/packages/validatior/node_modules/.ignored/@types/jest'"
+    }
+  }
+}
