@@ -2,11 +2,11 @@
 
 This is a simple but effective object validation package that is extensable with customer validations.
 
-## basic useage
+## basic use Typescript
 
 
 ```
-import { IChecks, Validator, validations } from './index';
+import { IChecks, Validator, validations } from 'ramda-adjunct-validation';
 const input = {
     username: 'vorticalbox',
 };
