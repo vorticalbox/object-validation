@@ -30,7 +30,6 @@ const checks: IChecks[] = [
         checks: [validations.isString],
     },
 ];
-const v = new Validator(checks);
 const v = new Validator(checks, input);
 v.valid() // returns true or false
 const errors = v.errors() // returns array of errors else []
