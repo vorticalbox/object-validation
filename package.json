@@ -1,6 +1,6 @@
 {
   "name": "ramda-adjunct-validation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Object validation using ramda-adjunct for validations plus cupport for custom validations",
   "main": "./dist/index.js",
   "scripts": {
