@@ -31,5 +31,7 @@ const checks: IChecks[] = [
     },
 ];
 const v = new Validator(checks);
-const errors = v.validate(input); // empty array as no errors
+const v = new Validator(checks, input);
+v.valid() // returns true or false
+const errors = v.errors() // returns array of errors else []
 ```
