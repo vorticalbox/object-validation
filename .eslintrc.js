@@ -19,6 +19,7 @@ module.exports = {
     plugins: [
       '@typescript-eslint',
     ],
+    ignorePatterns:['/node_modules', '/dist'],
     rules: {
       // tell eslint to not require file extenstions.
       'import/extensions': 'off',
