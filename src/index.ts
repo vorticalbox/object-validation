@@ -32,7 +32,7 @@ export class Validator {
           } else {
             const check = R.allPass(validation.checks);
             const result: boolean = check(value);
-            if (RA.isFalse(result) && required) {
+            if (RA.isFalse(result) && RA.isNotUndefined(value)) {
               this.foundErrors.push({ message, value });
             }
           }
