@@ -1,6 +1,6 @@
 # Object validation
 
-This is a simple but effective object validation package that is extensable with customer validations.
+This is a simple but effective object validation package that is extensable with custom validations.
 
 ## basic use Typescript
 
