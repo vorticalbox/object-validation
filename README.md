@@ -1,11 +1,11 @@
-# Object validation
+# ramda-adjunct-validation
 
 This is a simple but effective object validation package that is extensable with custom validations.
 
 ## basic use Typescript
 
 
-```
+``` js
 import { IChecks, Validator, validations } from 'ramda-adjunct-validation';
 const input = {
     username: 'vorticalbox',
@@ -35,3 +35,8 @@ v.validate();
 v.valid() // returns true or false
 const errors = v.errors() // returns array of errors else []
 ```
+
+
+### TODO:
+
+- create promise based validation
